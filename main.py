@@ -17,7 +17,7 @@ liners = Liners()
 liners.lines()
 screen.onkey(timmy.movement, 'Up')
 
-score = 0
+score = 1
 i = 0
 game_on = True
 while game_on:
