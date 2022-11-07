@@ -15,7 +15,7 @@ class Writing(Turtle):
 
     def loser(self, score):
         self.goto(x=0, y=0)
-        self.write(f'You Lose! You\'re score is {score}', align='center', font=('Comic Sans MS', 24, 'normal'))
+        self.write(f'You lose! Your score is {score}', align='center', font=('Comic Sans MS', 24, 'normal'))
 
 
 class Liners(Turtle):
